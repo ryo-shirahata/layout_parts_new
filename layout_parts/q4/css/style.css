@@ -2,4 +2,65 @@
 
 /* 回答はここに書いてね */
 
+.q4 {
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: #ECF1F2;
+}
+
+.q4_frame {
+  width: 100%;
+  display: table;
+  margin-top: 20px;
+}
+
+.q4_frame:first-child {
+  margin-top: 0;
+}
+
+.skin_bar {
+  width: 100px;
+  background-color: #fdc8b8;
+  display: table-cell;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.purple_bar {
+  background-color: #e0abd9;
+  display: table-cell;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.blue_bar {
+  width: 100px;
+  background-color: #b6d8ed;
+  display: table-cell;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.yellow_bar {
+  background-color: #e5d32e;
+  display: table-cell;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.red_bar {
+  background-color: #ec8f9a;
+  display: table-cell;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.green_bar {
+  width: 500px;
+  background-color: #8fdcad;
+  display: table-cell;
+  padding: 20px 0;
+  text-align: center;
+}
+
 /* 回答はここに書いてね */
