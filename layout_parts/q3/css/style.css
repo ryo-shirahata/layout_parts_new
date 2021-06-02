@@ -2,4 +2,25 @@
 
 /* 回答はここに書いてね */
 
+.table_frame {
+  width: 100%;
+  table-layout: fixed;
+  border: 1px solid black;
+}
+
+.table_frame th {
+  background-color: #2244aa;
+  color: #FFF;
+  border: 1px solid black;
+  padding: 10px;
+}
+
+.table_frame td {
+  table-layout: fixed;
+  border: 1px solid black;
+  padding: 10px;
+}
+
+
 /* 回答はここに書いてね */
+
