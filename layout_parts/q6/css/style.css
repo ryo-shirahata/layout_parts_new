@@ -79,9 +79,24 @@
 
 /* 個人メモ（作成手順とポイント）
 
-①
-②
-③
-④
-⑤
+『text-align』
+①display: inline-block;による中央寄せ
+
+『margin』
+①margin: 0 auto;による中央寄せ（widthの指定が必要）
+
+『table』
+①display: table-cell;で上辺の中央へ移動
+②vertical-align: middle;で縦軸も中央へ移動
+
+『flex』
+①flex box参照
+
+『position固定』
+①全方向の値を０にし、margin: auto;
+
+『position可変』
+①右下のボックスにおいて、『position可変』の左上角を中央へ設定
+②中心同士を合わせる為、transform: translate(-50%, -50%);
+*動かした50%同士
 */
