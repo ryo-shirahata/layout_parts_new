@@ -26,16 +26,18 @@
   word-break: break-all;
 }
 
+.photo_bottom {
+  margin-bottom: 10px;
+}
+
 .balloon_photo {
   float: left;
   margin-right: 20px;
-  margin-bottom: 10px;
 }
 
 .festival_photo {
   float: right;
   margin-left: 20px;
-  margin-bottom: 10px;
 }
 
 /* 回答はここに書いてね */

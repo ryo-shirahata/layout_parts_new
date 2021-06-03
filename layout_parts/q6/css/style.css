@@ -5,35 +5,29 @@
 .text-align_frame {
   text-align: center;
 }
-
-.text-align_box {
+.box_frame {
   width: 90px;
   padding: 10px 0;
   background-color: #E6F2FF;
+}
+.text-align_box {
   display: inline-block;
 }
-
-
 .margin_box {
-  width: 90px;
-  padding: 10px 0;
   text-align: center;
   margin: 0 auto;
-  background-color: #E6F2FF;
 }
 
 
 .q6_table {
   display: table;
 }
-
 .table_box {
   display: table-cell;
   background-color: #ECF1F2;
   text-align: center;
   vertical-align: middle;
 }
-
 .table_text {
   display: inline-block;
   padding: 10px;
@@ -46,7 +40,6 @@
   align-items: center;
   justify-content: center;
 }
-
 .flex_text {
   padding: 10px;
   background-color: #FFF;
@@ -56,7 +49,6 @@
 .q6--position .q6__box {
   position: relative;
 }
-
 .q6__box.is-stable .q6__box__inner {
   position: absolute;
   top: 0;
@@ -65,7 +57,6 @@
   left: 0;
   margin: auto;
 }
-
 .q6__box.is-flexible .q6__box__inner {
   position: absolute;
   top: 50%;

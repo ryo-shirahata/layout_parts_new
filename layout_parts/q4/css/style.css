@@ -18,49 +18,37 @@
   margin-top: 0;
 }
 
-.skin_bar {
-  width: 100px;
-  background-color: #fdc8b8;
+.contents_box {
   display: table-cell;
   padding: 20px 0;
   text-align: center;
 }
 
+.skin_bar {
+  width: 100px;
+  background-color: #fdc8b8;
+}
+
 .purple_bar {
   background-color: #e0abd9;
-  display: table-cell;
-  padding: 20px 0;
-  text-align: center;
 }
 
 .blue_bar {
   width: 100px;
   background-color: #b6d8ed;
-  display: table-cell;
-  padding: 20px 0;
-  text-align: center;
 }
 
 .yellow_bar {
   background-color: #e5d32e;
-  display: table-cell;
-  padding: 20px 0;
-  text-align: center;
 }
 
 .red_bar {
   background-color: #ec8f9a;
-  display: table-cell;
-  padding: 20px 0;
-  text-align: center;
 }
 
 .green_bar {
   width: 500px;
   background-color: #8fdcad;
-  display: table-cell;
-  padding: 20px 0;
-  text-align: center;
 }
 
 /* 回答はここに書いてね */

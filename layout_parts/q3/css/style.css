@@ -5,29 +5,29 @@
 .table_frame {
   width: 100%;
   table-layout: fixed;
-  border: 1px solid #dedede;
   line-height: 26px;
+}
+
+.table_frame th, td {
+  padding: 10px;
+  border: 1px solid #dedede;
 }
 
 .table_frame th {
   background-color: #2244aa;
   color: #FFF;
-  border: 1px solid #dedede;
-  padding: 10px;
   font-size: 18px;
 }
 
 .table_frame td {
-  border: 1px solid #dedede;
-  padding: 10px;
   text-align: center;
 }
 
-.table_frame tr:nth-child(odd) {
+.table_frame tbody tr:nth-child(even) {
   background-color: #ECF1F2;
 }
 
-.table_frame  tr:last-child {
+.table_frame tbody tr:last-child {
   border-top: 2px dashed #000;
 }
 
