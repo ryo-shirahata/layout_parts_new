@@ -42,6 +42,15 @@
   line-height: 16px;
 }
 
-
-
 /* 回答はここに書いてね */
+
+
+/* 個人メモ（作成手順とポイント）
+
+①大枠のグレー四角を用意（outline）
+②中へブルー四角を３つfloatで横並び（outline_contents）
+③中へ黒ボーダーのtextをいれるboxを用意
+④中へtextを指定
+
+*floatを使用する為、clearfixは必須
+*/

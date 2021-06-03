@@ -2,13 +2,6 @@
 
 /* 回答はここに書いてね */
 
-/* 個人メモ（作成手順とポイント）
-①画像と同じサイズ（class="animation"）
-②画像の拡大する速度を指定 .5s=0,5と同義（class="car_photo"）
-③画像下に隠れるようbottom: -100%;で指定 現れる速度は②同様（class="car_photo_expansion"）
-④左下へ固定、padding、改行（class="car_photo_expansion_text"）
-*/
-
 .animation {
   width: 500px;
   height: 300px;
@@ -51,7 +44,12 @@
   word-break: break-all;
 }
 
-
-
-
 /* 回答はここに書いてね */
+
+
+/* 個人メモ（作成手順とポイント）
+①画像と同じサイズ（class="animation"）
+②画像の拡大する速度を指定 .5s=0,5と同義（class="car_photo"）
+③画像下に隠れるようbottom: -100%;で指定 現れる速度は②同様（class="car_photo_expansion"）
+④左下へ固定、padding、改行（class="car_photo_expansion_text"）
+*/

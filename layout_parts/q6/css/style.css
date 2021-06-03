@@ -2,16 +2,26 @@
 
 /* 回答はここに書いてね */
 
-.central_box {
+.text-align_frame {
+  text-align: center;
+}
+
+.text-align_box {
+  width: 90px;
+  padding: 10px 0;
+  background-color: #E6F2FF;
+  display: inline-block;
+}
+
+
+.margin_box {
+  width: 90px;
   padding: 10px 0;
   text-align: center;
   margin: 0 auto;
-}
-
-.text_box {
-  width: 90px;
   background-color: #E6F2FF;
 }
+
 
 .q6_table {
   display: table;
@@ -30,6 +40,7 @@
   background-color: #FFF;
 }
 
+
 .flex_box {
   display: flex;
   align-items: center;
@@ -40,6 +51,7 @@
   padding: 10px;
   background-color: #FFF;
 }
+
 
 .q6--position .q6__box {
   position: relative;
@@ -62,5 +74,14 @@
   transform: translate(-50%, -50%);
 }
 
-
 /* 回答はここに書いてね */
+
+
+/* 個人メモ（作成手順とポイント）
+
+①
+②
+③
+④
+⑤
+*/

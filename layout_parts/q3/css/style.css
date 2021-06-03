@@ -23,13 +23,24 @@
   text-align: center;
 }
 
-.table_frame > tbody > tr:nth-child(odd) {
+.table_frame tr:nth-child(odd) {
   background-color: #ECF1F2;
 }
 
-.table_frame > tbody > tr:last-child {
+.table_frame  tr:last-child {
   border-top: 2px dashed #000;
 }
 
 /* 回答はここに書いてね */
 
+
+/* 個人メモ（作成手順とポイント）
+
+①table-layout: fixed;で均等配列（table_frame）
+②日付と各項目、タイトル関係（th）
+③数値やデータ（td）
+④(even)=偶数、(odd)=奇数
+⑤dashed=点々の線
+
+*『tr』=行、『th・td』=セル
+*/

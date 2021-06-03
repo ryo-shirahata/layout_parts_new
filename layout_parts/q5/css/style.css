@@ -2,20 +2,20 @@
 
 /* 回答はここに書いてね */
 
-.q5 {
-  position: relative;
+.q5_boxes {
   width: 500px;
   height: 500px;
+  position: relative;
   margin: 0 auto;
   background-color: #ECF1F2;
 }
 
 .q5_box {
-  position: absolute;
   width: 100px;
+  line-height: 100px;
+  position: absolute;
   font-weight: bold;
   font-size: 30px;
-  line-height: 100px;
   text-align: center;
 }
 
@@ -92,3 +92,16 @@
 }
 
 /* 回答はここに書いてね */
+
+
+/* 個人メモ（作成手順とポイント）
+
+①大枠の箱を作成（q5_boxes）
+②全ての箱に共通するものをまとめる（q5_box）
+③z-index: 1;=番号順に重なるようになる
+④８番に１番が重なるよう重複箇所を１番の色で上塗り
+⑤position: fixed;で決め打ち（number-9）
+
+*z-indexで番号を重ねる
+*８番と１番の重なり関係
+*/

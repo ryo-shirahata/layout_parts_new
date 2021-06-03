@@ -2,19 +2,19 @@
 
 /* 回答はここに書いてね */
 
-.q4 {
+.q4_frame {
   padding: 20px;
   box-sizing: border-box;
   background-color: #ECF1F2;
 }
 
-.q4_frame {
+.q4_frame_contents {
   width: 100%;
   display: table;
   margin-top: 20px;
 }
 
-.q4_frame:first-child {
+.q4_frame_contents:first-child {
   margin-top: 0;
 }
 
@@ -64,3 +64,14 @@
 }
 
 /* 回答はここに書いてね */
+
+
+/* 個人メモ（作成手順とポイント）
+
+①paddingを指定（q4_frame）
+②全体の横幅を取り、display: table;（q4_frame_contents）
+③各コンテンツはdisplay: table-cell;で横並び
+④固定コンテンツへのみ幅を指定
+
+*横並び＝display: table;▶︎display: table-cell;
+*/
