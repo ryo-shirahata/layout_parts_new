@@ -18,7 +18,6 @@
   box-sizing: border-box;
   margin-left: 50px;
 }
-
 .q7--float .q7__box:first-child {
   margin-left: 0;
 }
@@ -27,17 +26,14 @@
 .q7--table .q7__inner {
   display: table;
 }
-
 .q7--table .q7__box {
   display: table-cell;
   vertical-align: middle;
   padding-left: 50px;
 }
-
 .q7--table .q7__box:first-child {
   padding-left: 0;
 }
-
 .q7--table .q7__box__text {
   font-size: 16px;
 }
@@ -46,7 +42,6 @@
 .q7--inlineblock .q7__inner {
   font-size: 0;
 }
-
 .q7--inlineblock .q7__box {
   font-size: 16px;
   display: inline-block;
@@ -54,7 +49,6 @@
   box-sizing: border-box;
   margin-left: 50px;
 }
-
 .q7--inlineblock .q7__box:first-child {
   margin-left: 0;
 }
@@ -65,10 +59,8 @@
   justify-content: space-around;
   align-items: flex-end;
 }
-
 .q7--flex .q7__box {
   font-size: 16px;
-  vertical-align: middle;
   box-sizing: border-box;
 }
 
@@ -76,16 +68,13 @@
 .q7--margin .q7__inner {
   font-size: 0;
 }
-
 .q7--margin .q7__box {
   vertical-align: top;
 }
-
 .q7--margin .q7__box.is-fixed {
   width: 300px;
   display: inline-block;
 }
-
 .q7--margin .q7__box.is-variable {
   width: 100%;
   display: inline-block;
@@ -93,7 +82,6 @@
   margin-left: -300px;
   padding-left: 350px;
 }
-
 .q7--margin .q7__box__text {
   font-size: 16px;
 }
@@ -102,9 +90,28 @@
 
 
 /* 個人メモ（作成手順とポイント）
-①
-②
-③
-④
-⑤
+
+『float』
+①box-sizingを指定する（しないと崩れる）
+②floatはclearfixを付ける！
+
+『table』
+①table-cellで横並び
+②vertical-align: middle;＝縦軸を中央へ
+
+『inline-block』
+①font-sizeを０にする（しないとズレる）
+②inline-blockで横並び
+③vertical-alignで中央へ
+
+『flex』
+①flex box参照
+
+『inline-blockとmargin』
+①font-sizeを０にする（しないとズレる）
+②vertical-alignで上へ
+③inline-blockで横並び
+④固定コンテンツは決め打ち
+⑤可変コンテンツは全体から固定分を差し引く
+
 */
