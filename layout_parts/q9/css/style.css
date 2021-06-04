@@ -7,7 +7,7 @@
   padding: 20px;
   margin: 0 auto;
   border: 5px solid #222;
-  border-radius: 50px;
+  border-radius: 30px;
   position: relative;
 }
 
@@ -17,13 +17,15 @@
   border: 20px solid transparent;
   content: "";
 }
+
 .speech_balloon:before {
   bottom: -45px;
   left: 50px;
   border-top-color: #222;
 }
+
 .speech_balloon:after {
-  bottom: -40px;
+  bottom: -38px;
   left: 50px;
   border-top-color: #fff;
 }
