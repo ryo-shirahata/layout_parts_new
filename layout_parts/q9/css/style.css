@@ -2,4 +2,40 @@
 
 /* 回答はここに書いてね */
 
+.speech_balloon {
+  width: 500px;
+  padding: 20px;
+  margin: 0 auto;
+  border: 5px solid #222;
+  border-radius: 50px;
+  position: relative;
+}
+
+.speech_balloon:after,
+.speech_balloon:before {
+  position: absolute;
+  border: 20px solid transparent;
+  content: "";
+}
+.speech_balloon:before {
+  bottom: -45px;
+  left: 50px;
+  border-top-color: #222;
+}
+.speech_balloon:after {
+  bottom: -40px;
+  left: 50px;
+  border-top-color: #fff;
+}
+
 /* 回答はここに書いてね */
+
+
+/* 個人メモ（作成手順とポイント）
+
+①規程サイズのtext boxを用意（）
+②border-radius: 50px;＝丸みを付ける
+③before、afterでそれぞれborderを作成
+④bottomで差分を付け、そのサイズが表示
+
+*/

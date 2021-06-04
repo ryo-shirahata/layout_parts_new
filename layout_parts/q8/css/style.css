@@ -2,7 +2,7 @@
 
 /* 回答はここに書いてね */
 
-.animation {
+.expansion_animation {
   width: 500px;
   height: 300px;
   position: relative;
@@ -10,46 +10,69 @@
   cursor: pointer;
   overflow: hidden;
 }
-
 .car_photo {
   transition: all .5s;
 }
-
 .car_photo_expansion {
+  position: absolute;
   width: 100%;
   height: 100%;
-  position: absolute;
-  bottom: -100%;
-  left: 0;
+  bottom: -50%;
   background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, .8));
   transition: all .5s;
 }
-
-.animation:hover .car_photo {
+.expansion_animation:hover .car_photo {
   transform: scale(1.5);
 }
-
-.animation:hover .car_photo_expansion {
+.expansion_animation:hover .car_photo_expansion {
   bottom: 0;
 }
-
 .car_photo_expansion_text {
   width: 100%;
   position: absolute;
   bottom: 0;
-  left: 0;
   padding: 20px;
   color: #FFF;
   box-sizing: border-box;
   word-break: break-all;
 }
 
+
+.circle_animation {
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+  border: 10px solid #ECF1F2;
+  border-top-color: #00BCD4;
+  border-radius: 100%;
+  animation: loading 1.1s linear infinite;
+}
+@keyframes loading {
+  to {
+    transform: rotate(360deg);
+    transform-origin: 50% 50%;
+  }
+}
+
 /* 回答はここに書いてね */
 
 
 /* 個人メモ（作成手順とポイント）
+
+『アニメーション①』
 ①画像と同じサイズ（class="animation"）
 ②画像の拡大する速度を指定 .5s=0,5と同義（class="car_photo"）
-③画像下に隠れるようbottom: -100%;で指定 現れる速度は②同様（class="car_photo_expansion"）
-④左下へ固定、padding、改行（class="car_photo_expansion_text"）
+③画像下に隠れるようbottom: -50%;で指定
+④現れる速度は②同様（class="car_photo_expansion"）
+⑤拡大倍率は画像に対して1.5倍▶︎transform: scale(1.5);
+⑤下へ固定、padding、改行（class="car_photo_expansion_text"）
+
+『アニメーション②』
+①100✖️100の正方形をmargin: 0 auto;で中央へ
+②borderで囲う
+③回す色をトップへ指定
+④animationで速度を指定
+⑤transform: rotate(360deg);＝回る範囲
+⑥transform-origin: 50% 50%;＝本体の回転
+
 */
